@@ -9,3 +9,8 @@
 </ng-template>
 
 <h3>ngSwitch</h3>
+<div [ngSwitch]="username">
+    <p *ngSwitchCase="'pavi'">i am raja</p>
+    <p *ngSwitchCase="'gowthu'">i am vijay</p>
+    <p *ngSwitchDefault>username doesn't match</p>
+    <hr>
