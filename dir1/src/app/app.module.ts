@@ -7,12 +7,16 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { FormsModule } from '@angular/forms';
 import { DirectiveComponent } from './directive/directive.component';
 import { PipeComponent } from './pipe/pipe.component';
+import { CustomDirective } from './custom.directive';
+import { ConsumerPipe } from './consumer.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     DatabindingComponent,
     DirectiveComponent,
-    PipeComponent
+    PipeComponent,
+    CustomDirective,
+    ConsumerPipe
   ],
   imports: [
     BrowserModule,
