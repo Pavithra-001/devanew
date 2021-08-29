@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PipeComponent implements OnInit {
 
+ 
+  name = "welcome";
+ message = "";
+ date = new Date();
   constructor() { }
 
   ngOnInit(): void {
