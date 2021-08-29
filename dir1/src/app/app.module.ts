@@ -16,6 +16,7 @@ import { EmployeelistComponent } from './employeelist/employeelist.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { LoadComponent } from './load/load.component';
 import { CrudComponent } from './crud/crud.component';
+import { TaskComponent } from './task/task.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { CrudComponent } from './crud/crud.component';
     PagenotfoundComponent,
     LoadComponent,
     CrudComponent,
+    TaskComponent,
     
   ],
   imports: [
