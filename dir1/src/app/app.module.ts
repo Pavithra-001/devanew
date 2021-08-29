@@ -15,9 +15,10 @@ import { DepartmentComponent } from './department/department.component';
 import { EmployeelistComponent } from './employeelist/employeelist.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { LoadComponent } from './load/load.component';
-import { CrudComponent } from './crud/crud.component';
+import { DataService } from './data.service';
 import { TaskComponent } from './task/task.component';
-import { TestComponent } from './test/test.component';
+import { CrudComponent } from './crud/crud.component';
+
 
 
 @NgModule({
@@ -33,18 +34,19 @@ import { TestComponent } from './test/test.component';
     EmployeelistComponent,
     PagenotfoundComponent,
     LoadComponent,
-    CrudComponent,
     TaskComponent,
-    TestComponent,
+    CrudComponent
+    
     
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
