@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DatabindingComponent implements OnInit {
  
   title="Pavithra"
+  visible=true;
   constructor() { }
 
   ngOnInit(): void {
