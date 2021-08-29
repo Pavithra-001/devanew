@@ -14,6 +14,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { DepartmentComponent } from './department/department.component';
 import { EmployeelistComponent } from './employeelist/employeelist.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { LoadComponent } from './load/load.component';
+import { CrudComponent } from './crud/crud.component';
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     DepartmentComponent,
     EmployeelistComponent,
     PagenotfoundComponent,
+    LoadComponent,
+    CrudComponent,
     
   ],
   imports: [
