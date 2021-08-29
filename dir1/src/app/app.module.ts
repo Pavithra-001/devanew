@@ -9,7 +9,10 @@ import { DirectiveComponent } from './directive/directive.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { CustomDirective } from './custom.directive';
 import { ConsumerPipe } from './consumer.pipe';
-import { ReactiveComponent } from './reactive/reactive.component';
+import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +21,14 @@ import { ReactiveComponent } from './reactive/reactive.component';
     PipeComponent,
     CustomDirective,
     ConsumerPipe,
-    ReactiveComponent
+    ReactiveformComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
