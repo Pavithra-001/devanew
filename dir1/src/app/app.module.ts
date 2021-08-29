@@ -11,6 +11,7 @@ import { CustomDirective } from './custom.directive';
 import { ConsumerPipe } from './consumer.pipe';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DepartmentComponent } from './department/department.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CustomDirective,
     ConsumerPipe,
     ReactiveformComponent,
+    DepartmentComponent,
     
   ],
   imports: [
