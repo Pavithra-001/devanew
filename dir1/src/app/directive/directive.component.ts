@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectiveComponent implements OnInit {
 
+  title = 'Directive';
   constructor() { }
 
   ngOnInit(): void {
