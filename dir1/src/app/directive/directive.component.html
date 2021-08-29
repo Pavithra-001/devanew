@@ -1,2 +1,9 @@
 
 <h3>STRUCTURAL DIRECTIVE</h3>
+<h4>ngIf</h4>
+<div *ngIf="display;if thenblock;else elseblock">
+  <p>i am if</p>
+</div>
+<ng-template #elseblock>
+  <p>i am else</p>
+</ng-template>
