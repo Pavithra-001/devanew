@@ -9,6 +9,7 @@ import { DirectiveComponent } from './directive/directive.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { CustomDirective } from './custom.directive';
 import { ConsumerPipe } from './consumer.pipe';
+import { ReactiveComponent } from './reactive/reactive.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { ConsumerPipe } from './consumer.pipe';
     DirectiveComponent,
     PipeComponent,
     CustomDirective,
-    ConsumerPipe
+    ConsumerPipe,
+    ReactiveComponent
   ],
   imports: [
     BrowserModule,
