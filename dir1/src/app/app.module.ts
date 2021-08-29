@@ -12,6 +12,7 @@ import { ConsumerPipe } from './consumer.pipe';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DepartmentComponent } from './department/department.component';
+import { EmployeelistComponent } from './employeelist/employeelist.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { DepartmentComponent } from './department/department.component';
     ConsumerPipe,
     ReactiveformComponent,
     DepartmentComponent,
+    EmployeelistComponent,
     
   ],
   imports: [
