@@ -11,6 +11,10 @@ export class PipeComponent implements OnInit {
   name = "welcome";
  message = "";
  date = new Date();
+ person = { 
+  "firstName": "saro",
+  "lastName": "pavi"
+}
   constructor() { }
 
   ngOnInit(): void {
