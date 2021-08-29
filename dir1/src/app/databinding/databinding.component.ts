@@ -10,6 +10,7 @@ export class DatabindingComponent implements OnInit {
   title="Pavithra"
   visible=true;
   entername="";
+  text:any;
   constructor() { }
 
   ngOnInit(): void {
