@@ -9,9 +9,14 @@ export class DatabindingComponent implements OnInit {
  
   title="Pavithra"
   visible=true;
+  entername="";
   constructor() { }
 
   ngOnInit(): void {
+  }
+  onSubmit()
+  {
+    alert('success')
   }
 
 }
