@@ -17,6 +17,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { LoadComponent } from './load/load.component';
 import { CrudComponent } from './crud/crud.component';
 import { TaskComponent } from './task/task.component';
+import { TestComponent } from './test/test.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { TaskComponent } from './task/task.component';
     LoadComponent,
     CrudComponent,
     TaskComponent,
+    TestComponent,
     
   ],
   imports: [
