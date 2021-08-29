@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { FormsModule } from '@angular/forms';
 import { DirectiveComponent } from './directive/directive.component';
+import { PipeComponent } from './pipe/pipe.component';
 @NgModule({
   declarations: [
     AppComponent,
     DatabindingComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    PipeComponent
   ],
   imports: [
     BrowserModule,
